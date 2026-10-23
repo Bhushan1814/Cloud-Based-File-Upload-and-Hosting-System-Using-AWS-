@@ -1,0 +1,38 @@
+# Environment and secret files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials.json
+
+# PHP dependencies
+/vendor/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Local configuration
+config.local.php
